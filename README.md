@@ -13,7 +13,9 @@ Cluster
 
 Build then push Dockerfile to local repository.
 Deploy to Openfaas via
+````
   faas-cli deploy -f ipconfig_function.yaml
+````
   
 
 ````
