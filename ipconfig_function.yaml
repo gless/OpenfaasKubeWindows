@@ -1,6 +1,6 @@
 provider:
   name: faas
-  gateway: http://ip:port
+  gateway: http://gateway:port
 
 functions:
   ipconfig:
