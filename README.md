@@ -3,12 +3,13 @@
 Openfaas Kubernetes Windows Test Function
 
 Tested using 
-  Docker version 19.03.2
-  Kubernetes 1.15.4
+ - Docker version 19.03.2
+ - Kubernetes 1.15.4
+
 Cluster
-  Ubuntu 18.04 Master
-  Ubuntu 18.04 Worker
-  Windows 2019 Datacenter Worker
+ - Ubuntu 18.04 Master
+ - Ubuntu 18.04 Worker
+ - Windows 2019 Datacenter Worker
 
 Build then push Dockerfile to local repository.
 Deploy to Openfaas via
