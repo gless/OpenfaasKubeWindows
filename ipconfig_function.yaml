@@ -1,0 +1,17 @@
+provider:
+  name: faas
+  gateway: http://ip:port
+
+functions:
+  ipconfig:
+    image: ourregistry/ipconfig
+    skip_build: true
+    constraints:
+      - "node.platform.os == windows"
+    imagePullPolicy: Always
+    environment:
+      suppress_lock: false
+      read_timeout: "5s"
+      write_timeout: "5s"
+      ack_timeout: "5s"
+      write_debug: true
