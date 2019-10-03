@@ -18,8 +18,8 @@ Deploy to Openfaas via
 ````
   
 
+Function failes in Openfaas due to Liveness Probe failers 
 ````
-Liveness Probe failers 
 Describe pod:
 Events:
   Type     Reason     Age                    From                      Message
