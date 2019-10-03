@@ -11,6 +11,8 @@ Cluster
  - Ubuntu 18.04 Worker
  - Windows 2019 Datacenter Worker
 
+You'll need to update the files to point to your repository and gateway information.
+
 Build then push Dockerfile to local repository.
 Deploy to Openfaas via
 ````
